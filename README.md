@@ -1,7 +1,5 @@
 # Hashantha Bandara Profile
 
-
-2.**cd** into the template directory then run this command to install all the dependencies
     
 ```bash
     npm install
