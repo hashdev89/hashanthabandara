@@ -125,3 +125,8 @@ pre {
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
+
+.testimoimage{
+  width: 50px;
+  height: 50px;
+}
