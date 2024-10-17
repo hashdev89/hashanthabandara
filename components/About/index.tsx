@@ -283,6 +283,89 @@ const About = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
+          <div className="flex items-center gap-8 lg:gap-32.5">
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_left md:w-1/2"
+            >    <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
+            New
+          </span>{" "}
+              <h4 className="font-medium uppercase text-black dark:text-white">
+                Socail Media Post Designs
+              </h4>
+              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+                Socail Media Post{"   "}
+            
+    
+                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
+                  Designs
+                </span>
+              </h2>
+              <p>
+              I designed these social media posts to engage and connect with the audience around the product. My goal was to create visually appealing content that highlights the product's features and encourages interaction.
+              </p>
+              <div>
+                <a target="_blank" href="https://elife-web.elifeamerica.com/tbt"
+                  className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
+                >
+                  <span className="duration-300 group-hover:pr-2">
+                    Know More
+                  </span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="currentColor"
+                  >
+                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
+                  </svg>
+                </a>
+              </div>
+            </motion.div>
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: 20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+            > 
+              <Image
+                src="./images/about/Post.svg"
+                alt="About"
+                fill
+              />
+            
+            </motion.div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
