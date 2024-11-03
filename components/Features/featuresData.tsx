@@ -25,7 +25,7 @@ const featuresData: Feature[] = [
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Timely Dilivering",
+    title: "Timely Delivery",
     description:
       "I do my very best to meet deadlines and ensure timely delivery of every project.",
   },
